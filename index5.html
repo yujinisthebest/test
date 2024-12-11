@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+    margin:0;
+    padding:0;
+    }
+
+    nav {width:100%;
+    height:80px;
+    margin:0 auto;
+    position: fixed; top:0; background:rgb(0, 0, 0)}
+
+    nav ul{
+    width: 90%;
+    height:80px;
+    margin:10px auto;}
+
+    nav img {
+    width: 110px;
+    box-shadow: none;
+    transform: none;
+    margin-left: 40px;
+    }
+
+    nav li {
+    list-style-type: none;
+    float: right;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: 'Cooper';
+    font-weight: bold;
+    color: white;
+    margin-right: 60px;
+    }
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
+    a:visited {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:active {
+        color: white;
+        text-decoration: none;
+    }
+    #story {
+            width: 90%;
+            height: 200px;
+            margin: 60px auto;
+            line-height: 28px;
+        }
+        #story h2 {
+            font-family: 'cooper';
+            font-weight: bold;
+            font-size: 40px;
+            margin-left: 40px;
+        }
+        #story p {
+            width: 95%;
+            margin: 30px auto;
+            font-family: 'pretendard';
+            font-size: 22px;
+            color: rgba(0, 0, 0, 0.662);
+        }
+
+        #shopping {
+        width: 1200px;
+        height: 300px;
+        margin: 30px auto;
+    }
+
+    #shopping img {
+        margin-top: 200px;
+        width: 40%;
+        box-shadow: none;
+        transform: none;
+    }
+    
+    #shoppingtext {
+        float: right;
+        width: 45%;
+        font-family: 'pretendard';
+        font-size: 20px;
+        margin: 180px 170px 10px 10px;
+    }
+    #box_title {
+        font-family: 'cooper';
+        font-size: 40px;
+        margin-top: 235px;
+        margin-left: 160px;
+        margin-bottom: 20px;
+    }
+    #box{
+        width:90%;
+        height:500px;
+        margin: 0 auto;
+    }
+
+    #box2{
+        width:48%;
+        height:100%;
+        margin-left: 50px;
+        float:left;}
+
+    #box3{
+        width:48%;
+        height:100%; 
+        float:right;}
+
+    #img_box{
+        width:40%;
+        height: 90%;
+        float: left;}
+
+    #img_box img{
+        width:100%;
+        height:90%;
+        box-shadow: none;
+        transform: none;}
+    #text_box{
+        width:60%;
+        height:100%; 
+        float:right;
+        font-family: 'pretendard';
+        font-size: 20px;}
+
+    #text_box ul{
+        width:100%;
+        height:100%;
+        margin-top: 50px;
+        list-style-type: none;}
+
+    #text_box ul li{
+        width:90%;
+        height:20%;
+        margin:0 auto; 
+        line-height: 20px;}
+    #title_p {
+        font-weight: bold;
+        font-family: 'pretendard';
+        font-size: 22px;
+    }
+    #hollywood_title {
+        font-family: 'cooper';
+        font-size: 40px;
+        margin-top: 200px;
+        margin-left: 140px;
+        margin-bottom: 40px;
+    }
+    #hollywood_box {
+        display: flex;
+        justify-content: space-between;
+        width:80%;
+        height:800px;
+        margin: 0 auto;
+    }
+    #hollywood_img1 {
+        width: 25%;
+        float: left;
+    }
+    img:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    }
+    #hollywood_img1 img {
+        width: 90%;
+    }
+    #hollywood_img2 {
+        width: 25%;
+        margin-left: 100px;
+        float: left;
+    }
+    #hollywood_img2 img {
+        width: 90%;
+    }
+    #hollywood_img3 {
+        width: 25%;
+        float: left;
+        margin-left: 100px;
+    }
+    #hollywood_img3 img {
+        width: 90%;
+    } 
+    footer{
+        width: 100%;
+        height: 140px;
+        margin: 0 auto;
+        background-color: black;
+    }
+    #footer_s {
+        width: 30%;
+        height: 130px;
+        float: right;
+    }
+    #footer_logo {
+        width: 90px;
+        height: 50px;
+        float: left;
+        margin-top: 50px;
+        font-family: 'Cooper';
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    #footer_text {
+        width: 500px;
+        height: 100px;
+        float: right;
+        margin: 20px auto;
+        font-family: 'preyendard';
+        color: gray;
+    }
+</style>
+</head>
+<body>
+<nav>
+<ul>
+    <a href="index.html"><img src="logowhite.png"></a>
+    <li><a href="index2.html">Romantic</a></li>
+    <li><a href="index3.html">Chic</a></li>
+    <li><a href="index4.html">Ame-kaji</a></li>
+    <li><a href="index5.html">Minimal</a></li>
+    <li><a href="index6.html">Vintage</a></li>
+</ul>
+</nav> 
+
+<div id="story">
+<br><br><br><br>
+<h2>Minimal</h2>
+<p>미니멀 스타일은 최소한의 것을 활용하여 단순하고 깔끔하면서도 세련된 분위기를 추구하는 것을 말한다. 불필요한 장식이나 복잡한 디테일을 배제하고, 깔끔한 실루엣과
+    직선적인 라인을 강조하는 것이 특징이다. 기본적인 셔츠, 스트레이트 팬츠, 심플한 드레스 등으로 스타일링 한다, 컬러는 대체로 흰색, 검정, 회색, 베이지 등 모노톤의
+    차분한 색상을 활용해 간결함을 유지한다. 악세서리는 적게 사용하며, 심플한 디자인으로 포인트를 주는게 특징이다. 얇은 체인 목걸이, 미니멀한 링, 작은 핸드백을 
+    스타일링할 수 있다. 
+</p>
+</div>
+
+<div id="shopping">
+<img src="blackup.png">
+<div id="shoppingtext">
+    <p>블랙업은 힘하고 스트릿한 감성을 바탕으로, 대중적이면서도 개성있는 스타일을 추구하는 쇼핑몰이다. 젊고 트렌디한 아이템이 많으며, 힙한 패선을 즐기되 과하지 않은
+        디자인이 특징이다. 다양한 카테고리의 의류와 함께 독특한 아이덴티티를 가진 자체 제작 상품도 제공하고 있다. 다른 사이트들 보다 기본템의 값이 비까지만 그만큼
+        퀄리티가 좋아서 오래 입을 수 있는 옷을 찾는다면 추천하는 사이트이다.
+    </p>
+</div>
+</div>
+
+<div id="box_title">minimal coordi</div>
+<div id="box">
+    <div id="box2">
+        <div id="img_box">
+            <img src="minimal1.png">
+        </div>
+        <div id="text_box">
+            <ul>
+                <li>
+                    <p id="title_p">상의</p>[B-BASIC] 헤비스웨트 오버핏 후드 48,000원</li>
+                <li><p id="title_p">하의</p>[MADE] 프리밍 SET - 캐시울 니트 쇼츠 38,000원</li>
+                <li><p id="title_p">악세서리</p>[MADE] 레미나 니트 헤어 밴드 19,000원</li>
+                <li><p id="title_p">악세서리</p>[MADE] 노리쉬 니트 레그워머 19,000원</li>
+            </ul>
+        </div>
+    </div>
+
+<div id="box">
+    <div id="box3">
+        <div id="img_box">
+            <img src="minimal3.png">
+        </div>
+        <div id="text_box">
+            <ul>
+                <li><p id="title_p">상의</p>엘붐 스트랩 후드 웰론패딩 84,000원</li>
+                <li><p id="title_p">하의</p> [MADE] 에이트 밍크 부츠컷 밴딩팬츠 36,000원</li>
+                <li><p id="title_p">가방</p>오이셍 에나멜 빅 숄더백 39,000원 </li>
+                <li><p id="title_p">신발</p>랑브 기모 패딩 미들부츠	67,000원 </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="hollywood_title">More</div>
+<div id="hollywood_box">
+    <div id="hollywood_img1">
+        <img src="minimalb.jpg">
+    </div>
+    <div id="hollywood_img2">
+        <img src="minimalh.jpg">
+    </div>
+    <div id="hollywood_img3">
+        <img src="minimalk.jpg">
+    </div>
+</div>
+<footer><div id="footer_s">
+    <div id="footer_logo">LYJ</div>
+    <div id="footer_text">
+        instagram-@llyujin <br>
+        mail-katie873816@gmail.com <br>
+        phonenumber-010-1234-5678 <br>
+        COPYRIGHT (C) yujinlee ALL RIGHTS RESERVED
+    </div>
+</div>
+</footer>
+</body>
