@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin:0;
+    padding:0;
+}
+
+nav {width:100%;
+height:80px;
+margin:0 auto;
+position: fixed; top:0; background:rgb(191, 155, 107)}
+
+nav ul{
+width: 90%;
+height:80px;
+margin:10px auto;}
+
+nav img {
+    width: 110px;
+    box-shadow: none;
+    transform: none;
+    margin-left: 40px;
+}
+
+nav li {
+    list-style-type: none;
+    float: right;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: Cooper Black;
+    font-weight: bold;
+    margin-right: 60px;
+}
+a:link {
+        color: black;
+        text-decoration: none;
+    }
+a:visited {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+a:active {
+        color: black;
+        text-decoration: none;
+    }
+    #story {
+            width: 90%;
+            height: 200px;
+            margin: 60px auto;
+            line-height: 28px;
+        }
+        #story h2 {
+            font-family: 'cooper';
+            font-weight: bold;
+            font-size: 40px;
+            margin-left: 40px;
+        }
+        #story p {
+            width: 95%;
+            margin: 30px auto;
+            font-family: 'pretendard';
+            font-size: 22px;
+            color: rgba(0, 0, 0, 0.662);
+        }
+
+    #shopping {
+        width: 1200px;
+        height: 300px;
+        margin: 20px auto;
+
+    }
+
+    #shopping img {
+        width: 500px;
+        margin-top: 40px;
+        box-shadow: none;
+        transform: none;
+    }
+    
+    #shoppingtext {
+        float: right;
+        width: 500px;
+        font-family: pretendard;
+        font-size: 20px;
+        margin: 90px 170px 10px 10px;
+    }
+
+    #box_title {
+        font-family: 'cooper';
+        font-size: 40px;
+        margin-top: 150px;
+        margin-left: 160px;
+        margin-bottom: 20px;
+    }
+    img:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    }
+    #box{
+        width:90%;
+        height:500px;
+        margin: 0 auto;
+    }
+
+    #box2{
+        width:48%;
+        height:100%;
+        margin-left: 50px;
+        float:left;
+    }
+
+    #box3{
+        width:48%;
+        height:100%; 
+        float:right;}
+
+    #img_box{
+        width:40%;
+        height: 90%;
+        float: left;}
+
+    #img_box img{
+        width:100%;
+        height:90%;
+        box-shadow: none;
+        transform: none;}
+    #text_box{
+        width:60%;
+        height:100%; 
+        float:right;
+        font-family: 'pretendard';
+        font-size: 20px;}
+
+    #text_box ul{
+        width:100%;
+        height:100%;
+        margin-top: 50px;
+        list-style-type: none;}
+
+    #text_box ul li{
+        width:90%;
+        height:20%;
+        margin:0 auto; 
+        line-height: 20px;}
+    #title_p {
+        font-weight: bold;
+        font-family: 'pretendard';
+        font-size: 22px;
+    }
+    #japancoordi_title {
+        font-family: 'cooper';
+        font-size: 40px;
+        margin-top: 200px;
+        margin-left: 160px;
+        margin-bottom: 40px;
+    }
+    #japancoordi_box {
+        display: flex;
+        justify-content: space-between;
+        width:80%;
+        height:800px;
+        margin: 0 auto;
+    }
+    #japancoordi_img1 {
+        width: 25%;
+        float: left;
+        
+    }
+    #japancoordi_img1 img {
+        width: 90%;
+    }
+    #japancoordi_img2 {
+        width: 25%;
+        margin-left: 100px;
+        float: left;
+    }
+    #japancoordi_img2 img {
+        width: 90%;
+    }
+    #japancoordi_img3 {
+        width: 25%;
+        float: left;
+        margin-left: 100px;
+    }
+    #japancoordi_img3 img {
+        width: 90%;
+    }
+    footer{
+        width: 100%;
+        height: 140px;
+        margin: 0 auto;
+        background-color: black;
+    }
+    #footer_s {
+        width: 30%;
+        height: 130px;
+        float: right;
+    }
+    #footer_logo {
+        width: 90px;
+        height: 50px;
+        float: left;
+        margin-top: 50px;
+        font-family: 'Cooper';
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    #footer_text {
+        width: 500px;
+        height: 100px;
+        float: right;
+        margin: 20px auto;
+        font-family: 'preyendard';
+        color: gray;
+    }
+</style>
+</head>
+<body>
+<nav>
+<ul>
+    <a href="finalex.html"><img src="finexligo.png"></a>
+    <li><a href="index2.html">Vintage</a></li>
+    <li><a href="index3.html">Minimal</a></li>
+    <li><a href="index4.html">Ame-kaji</a></li>
+    <li><a href="index5.html">Chic</a></li>
+    <li><a href="index6.html">Romantic</a></li>
+</ul>
+</nav> 
+
+<div id="story">
+    <br><br><br><br>
+<h2>Ame-kaji style</h2>
+<p>아메카지 스타일은 아메리칸 캐주얼(American Casual)의 약자로, 미국의 빈티지 패션과 캐주얼 스타일에서 영감을 받은 일본 패션 트렌드이다. 이 스타일은 편안함을 
+    중시하며, 미국의 옛날 작업복, 밀리터리 의류, 데님, 워크웨어 같은 내구성이 좋은 소재를 사용한 옷을 현대적으로 재해석 한 것이 특징이다. 데님 재킷, 셀비지 데님 팬츠, 체크 셔츠, 카고 팬츠, 워크 부츠
+    같은 실용적인 아이템이 자주 사용된다. 티셔츠, 셔츠, 니트, 아우터를 겹쳐 입는 레이어드 스타일이 일반적이고, 다양한 패턴과 질감을 조합하여 개성을 강조한다. 컬러는 
+    카키, 베이지, 네이비, 브라운등의 어스 톤을 주로 사용한다. 배낭, 캡모자, 두꺼운 양말 등 실용적인 아이템을 사용하는게 특징이다. 아메카지 스타일은 실용성, 빈티지한 감성, 자유로운 스타일링이 매력 포인트이다.
+</p>
+</div>
+<br><br><br>
+<div id="shopping">
+<img src="바온.png">
+<div id="shoppingtext">
+    <p>바온은 여성 아메카지 스타일을 중심으로 다양한 패션 아이템을 제공하는 브랜드이다. 아메카지 스타일에 맞게 후즈한 핏과 실용적인 디자인의 옷을 선보이고 있다.
+        바온은 여성뿐만 아니라 남성도 입을 수 있는 보이 라인과 자체 디자인 바온메이드 라인도 있어서 선택의 폭이 넓다는 특징이 있다. 아메카지 스타일을 도전해 보고
+        싶다면 선택의 폭도 넓고 다양하면서도 유니크한 디자인의 옷이 있는 바온을 추천한다.
+    </p>
+</div>
+</div>
+<div id="box_title">Ame-kji coordi</div>
+<div id="box">
+    <div id="box2">
+        <div id="img_box">
+            <img src="ame-kaji.png">
+        </div>
+        <div id="text_box">
+            <ul>
+                <li><p id="title_p">상의</p><br>
+                    데카 피치기모 체크 오버 셔츠  26,600원</li>
+                <li><p id="title_p">하의</p><br>
+                    [BAONHAUS] 하비니 체크 배색 카펜더 기모 데님 팬츠 48,000원</li>
+                <li><p id="title_p">아우터</p><br>
+                    모나키 투웨이 스트링 배색 후드 오버 패딩 점퍼 61,750원</li>
+                <li><p id="title_p">가방</p><br>히코니 포켓 투웨이 워싱 크로스 백 25,000원</li>
+            </ul>
+        </div>
+    </div>
+
+<div id="box">
+    <div id="box3">
+        <div id="img_box">
+            <img src="ame-kaji2.png">
+        </div>
+        <div id="text_box">
+            <ul>
+                <li><p id="title_p">상의</p><br>
+                    데카 피치기모 체크 오버 셔츠  26,600원</li>
+                <li><p id="title_p">하의</p><br>
+                    [BAONHAUS] 틴시 리본 벌룬 데님 롱 스커트 38,000원</li>
+                <li><p id="title_p">악세서리</p><br>
+                    [BAONHAUS] 플렙 골지 코듀로이 레그 워머 19,000원 </li>
+                <li><p id="title_p">아우터</p><br>피돈 스트링 후드 윈드 조끼 29,000원</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="japancoordi_title">More</div>
+<div id="japancoordi_box">
+    <div id="japancoordi_img1">
+        <img src="jame.jpg">
+    </div>
+    <div id="japancoordi_img2">
+        <img src="jame2.jpg">
+    </div>
+    <div id="japancoordi_img3">
+        <img src="jame3.jpg">
+    </div>
+</div>
+<footer><div id="footer_s">
+    <div id="footer_logo">LYJ</div>
+    <div id="footer_text">
+        instagram-@llyujin <br>
+        mail-katie873816@gmail.com <br>
+        phonenumber-010-1234-5678 <br>
+        COPYRIGHT (C) yujinlee ALL RIGHTS RESERVED
+    </div>
+</div>
+</footer>
+</body>
