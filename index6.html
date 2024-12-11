@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+    margin:0;
+    padding:0;
+    }
+
+    nav {width:100%;
+    height:80px;
+    margin:0 auto;
+    position: fixed; top:0; background:rgb(133, 43, 106)}
+
+    nav ul{
+    width: 90%;
+    height:80px;
+    margin:10px auto;}
+
+    nav img {
+    width: 110px;
+    box-shadow: none;
+    transform: none;
+    margin-left: 20px;
+    margin-left: 40px;
+    }
+
+    nav li {
+    list-style-type: none;
+    float: right;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: Cooper Black;
+    font-weight: bold;
+    margin-right: 60px;
+    }
+    a:link {
+        color: black;
+        text-decoration: none;
+    }
+    a:visited {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:active {
+        color: black;
+        text-decoration: none;
+    }
+    #story {
+            width: 90%;
+            height: 200px;
+            margin: 60px auto;
+            line-height: 28px;
+    }
+    #story h2 {
+            font-family: 'cooper';
+            font-weight: bold;
+            font-size: 40px;
+            margin-left: 40px;
+    }
+    #story p {
+            width: 95%;
+            margin: 30px auto;
+            font-family: 'pretendard';
+            font-size: 22px;
+            color: rgba(0, 0, 0, 0.662);
+    }
+
+    #shopping {
+        width: 1200px;
+        height: 300px;
+        margin: 20px auto;
+
+    }
+
+    #shopping img {
+        width: 500px;
+        margin-top: 100px;
+        box-shadow: none;
+        transform: none;
+    }
+    
+    #shoppingtext {
+        float: right;
+        width: 500px;
+        font-family: pretendard;
+        font-size: 20px;
+        margin: 140px 170px 10px 10px;
+    }
+    #box_title {
+        font-family: 'cooper';
+        font-size: 40px;
+        margin-top: 235px;
+        margin-left: 160px;
+        margin-bottom: 20px;
+    }
+    #box{
+        width:90%;
+        height:500px;
+        margin: 0 auto;
+    }
+
+    #box2{
+        width:48%;
+        height:100%;
+        float:left;}
+
+    #box3{
+        width:48%;
+        height:100%; 
+        float:right;}
+
+    #img_box{
+        width:40%;
+        height: 90%;
+        
+        float: left;}
+
+    #img_box img{
+        width:100%;
+        height:90%;}
+    #text_box{
+        width:60%;
+        height:100%; 
+        float:right;
+        font-family: 'pretendard';
+        font-size: 20px;}
+
+    #text_box ul{
+        width:100%;
+        height:100%;
+        margin-top: 50px;
+        list-style-type: none;}
+
+    #text_box ul li{
+        width:90%;
+        height:20%;
+        margin:0 auto; 
+        line-height: 20px;}
+    #title_p {
+        font-weight: bold;
+        font-family: 'pretendard';
+        font-size: 22px;
+    }
+    #vintageshowtitle{
+        font-family: 'cooper';
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 250px;
+        margin-top: 140px;
+        margin-bottom: 50px;
+    }
+    #v_box{
+        width:80%;
+        height:700px;
+        margin:0 auto;
+    }
+    #v_box li{
+        float: left;
+        margin-left: 20px;}
+    #v_box li:nth-child(1),
+    #v_box li:nth-child(2){
+        width:30%;
+        height:100%;
+    }
+    #v_box li:nth-child(2) div:nth-child(1){
+        background:url(sexaducation.jpg) center center /cover no-repeat;
+        
+    }
+
+    #v_box li:nth-child(2) div{width:100%;
+    height:40%;
+    margin-top:70px;
+}
+
+    ul,li{
+    list-style:none;
+    }
+    #v_box p {
+    width: 600px;
+    margin-top: 520px;
+    font-size: 25px;
+    font-family: 'pretendard';
+    }
+
+    #v_box2{
+        width:80%;
+        height:700px;
+        margin:0 auto;
+    }
+    #v_box2 li{
+        float: left;
+        margin-left: 20px;}
+    #v_box2 li:nth-child(1),
+    #v_box2 li:nth-child(2){
+        width:30%;
+        height:100%;
+
+    }
+    #v_box2 li:nth-child(2) div:nth-child(1){
+        background:url(sexaducation.jpg) center center /cover no-repeat;
+        
+    }
+
+    #v_box2 li:nth-child(2) div{
+    width:100%;
+    height:40%;
+    margin-top:70px;
+}
+
+    ul,li{
+    list-style:none;
+    }
+    #v_box2 p {
+    width: 600px;
+    margin-top: 580px;
+    font-size: 25px;
+    font-family: 'pretendard';
+    }
+    footer{
+        width: 100%;
+        height: 140px;
+        margin: 0 auto;
+        background-color: black;
+    }
+    #footer_s {
+        width: 30%;
+        height: 130px;
+        float: right;
+    }
+    #footer_logo {
+        width: 90px;
+        height: 50px;
+        float: left;
+        margin-top: 50px;
+        font-family: 'Cooper';
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    #footer_text {
+        width: 500px;
+        height: 100px;
+        float: right;
+        margin: 20px auto;
+        font-family: 'preyendard';
+        color: gray;
+    }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="finalex.html"><img src="finexligo.png"></a>
+            <li><a href="index2.html">Romantic</a></li>
+            <li><a href="index3.html">Chic</a></li>
+            <li><a href="index4.html">Ame-kaji</a></li>
+            <li><a href="index5.html">Minimal</a></li>
+            <li><a href="index6.html">Vintage</a></li>
+        </ul>
+        </nav> 
+        
+        <div id="story">
+            <br><br><br><br>
+        <h2>Vintage</h2>
+        <p>빈티지 패션 스타일은 과거에 유행했던 의류와 액세서리에서 영감을 받아 착용하거나, 그 시대의 진품 의류를 활용한 패션 스타일이다. 단순히 오래된 옷을 입는 것이 아니라,
+            그 시대의 독특한 디자인, 실수엣, 소재, 패턴 등을 통해 고유의 미적 감각을 표현하는데 중점을 둔다.
+            주로 오래된 제작 방식을 따르는 고급 소재를 사용하고 섬세한 자수, 버튼 디테일, 핸드메이드 장식 등 정교한 마감을 갖고 있는게 특징이다.
+            색감은 세피아 톤, 파스텔 톤, 차분한 컬러 팔레트가 주를 이루고 시대에 따라 사용했던 강렬한 원색이나 대조적인 컬러 조합도 사용한다.
+            액세서리로는 모자, 빈티지 가망, 클래식 펌프스, 진주 목걸이를 활용하고 헤어스타일과 메이크업도 그 시대를 반영하여 스타일링 하기도 한다.
+        </p>
+        </div>
+        
+        <div id="shopping">
+        <img src="모래하우스.png">
+        <div id="shoppingtext">
+            <p>쇼핑몰에서 셀렉트하는 옷의 분위기와 사진 분위기 모두 빈티지한 느낌이 많이나서 빈티지한 옷과 느낌을 찾고 있다면 추천 할 수 있는 쇼핑몰이다.
+                흔한것 같지만 유니크한 옷들을 잘 셀렉트하는 것이 이 사이트만의 장점이다. 쇼핑몰 자체제작 상품은 아직 많이 없지만 적당한 가격대의 빈티지 스타일 옷을 
+                찾는다면 한번 구경하는 것을 추천한다.
+            </p>
+        </div>
+        </div>
+        
+        <div id="box_title">Vintage coordi</div>
+        <div id="box">
+            <div id="box2">
+                <div id="img_box">
+                    <img src="vintage1.png">
+                </div>
+                <div id="text_box">
+                    <ul>
+                        <li><p id="title_p">상의</p>
+                            클로버 비즈 탑 31,000원</li>
+                        <li><p id="title_p">하의</p>
+                            리플 니팅 스커트 34,000원</li>
+                        <li><p id="title_p">모자</p>
+                            프로즌 니트 비니 18,000원</li>
+                        <li><p id="title_p">가방</p>브릿지 테슬 호보백 29,000원</li>
+                    </ul>
+                </div>
+            </div>
+        
+        <div id="box">
+            <div id="box3">
+                <div id="img_box">
+                    <img src="vintage2.png">
+                </div>
+                <div id="text_box">
+                    <ul>
+                        <li><p id="title_p">상의</p>
+                            버블 에스닉 니트 45,000원</li>
+                        <li><p id="title_p">하의</p>
+                            클로젯 폴드 팬츠 54,000원</li>
+                        <li><p id="title_p">모자</p>
+                            에스닉 니트 비니 20,000원</li>
+                        <li><p id="title_p">아우터</p>테리 후드 블루종 54,000원 </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    <div id="vintageshowtitle">More</div>
+    <ul id="v_box">
+        <li>
+            <img src="sexaducation.jpg" width="100%" height="100%">
+        </li>
+        <li>
+            <div><img src="sexed3.jpg" width="100%" height="100%"></div>
+            <div><img src="sexed2.jpg" width="100%" height="100%"></div>
+        </li>
+        <li>
+            <p>오티스의 비밀상담소는 재미있는 스토리로도 유명하지만 등장인물의 패션 또한 유명하다. 주인공인 오티스의 아우터가
+                레트로한 색감과 디자인으로 사람들의 이목을 집중시켰고, 다른 등장인물들의 패션 또한 독특하고 레트로해서 인기가 많았다.
+                스토리뿐만아니라 색감과 패션에서도 재미를 느끼고 싶다면 오티스의 비밀상담소를 한번 보는것을 추천한다! 
+            </p>
+        </li>
+    </ul>
+    <br><br>
+    <ul id="v_box2">
+        <li>
+            <img src="strangerthings.jpg" width="100%" height="100%">
+        </li>
+        <li>
+            <div><img src="strange2.jpg" width="100%" height="100%"></div>
+            <div><img src="strange3.jpg" width="100%" height="100%"></div>
+        </li>
+        <li>
+            <p>기묘한 이야기도 스토리만큼 영상미가 뛰어난 작품으로 유명하다. 마치 1990년대를 연상 시키는 레트로한 패션이 작품을 보는 내내 눈을 즐겁게한다.
+                1990년대 미국 스타일로 코디를 해보고 싶은 사람들은 이 작품을 참고해보는 것울 추천한다!
+            </p>
+        </li>
+    </ul>
+    <br><br><br><br><br>
+    <footer><div id="footer_s">
+        <div id="footer_logo">LYJ</div>
+        <div id="footer_text">
+            instagram-@llyujin <br>
+            mail-katie873816@gmail.com <br>
+            phonenumber-010-1234-5678 <br>
+            COPYRIGHT (C) yujinlee ALL RIGHTS RESERVED
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
